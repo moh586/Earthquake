@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Earthquake</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_list">List</string>
+    <string name="title_activity_content">Content</string>
+    <string name="document">منابع و ماخذ</string>
+    <string name="aboutus">تماس با ما</string>
+    <string name="trylbl">با سپاس از نصب نرم افزار لطفا روی متنی که به صورت صحیح مشاهده می کنید کلیک کنید</string>
+    <string name="trytxt">این متن به صورت صحیح مشاهده میشود</string>
+    <string name="title_activity_alert">Alert</string>
+
+</resources>

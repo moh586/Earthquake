@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/listrl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ededed"
+    tools:context=".List" >
+
+    <TextView
+        android:id="@+id/listtitlelbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="20dp"
+        android:text="TextView"
+        android:textColor="#33b5e5"
+        android:textSize="17sp" />
+
+    <ImageView
+        android:id="@+id/listtitleimg"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/listtitlelbl"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:src="#33b5e5" />
+
+    <RelativeLayout
+        android:id="@+id/backrl"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:background="#808080" >
+
+        <ImageButton
+            android:id="@+id/backbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/backselector" />
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/listitems"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/backrl"
+        android:layout_below="@id/listtitleimg" >
+
+    </ListView>
+
+</RelativeLayout>

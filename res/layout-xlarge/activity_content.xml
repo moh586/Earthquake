@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/contentrl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ededed"
+    tools:context=".List" >
+
+    <TextView
+        android:id="@+id/contenttitlelbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="40dp"
+        android:text="TextView"
+        android:textColor="#33b5e5"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/contenttitleimg"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/contenttitlelbl"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="20dp"
+        android:src="#33b5e5" />
+
+    <RelativeLayout
+        android:id="@+id/backrl"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:background="#808080" >
+
+        <ImageButton
+            android:id="@+id/backbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/backselector" />
+
+    </RelativeLayout>
+
+	<ScrollView
+	    android:id="@+id/page"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_above="@id/backrl"
+	    android:layout_below="@id/contenttitleimg"
+	    android:layout_gravity="right"
+	    android:layout_marginLeft="5dp"
+	    android:layout_marginRight="5dp"
+	    android:layout_marginTop="5dp"
+	    android:scrollbars="none" >
+
+    <TableLayout
+        android:id="@+id/tableitems"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="20dp"
+        android:paddingBottom="5dp" >
+
+    </TableLayout>
+</ScrollView>
+</RelativeLayout>
